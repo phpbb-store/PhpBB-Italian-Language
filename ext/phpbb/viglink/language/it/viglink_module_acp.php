@@ -5,6 +5,7 @@
  *
  * @copyright (c) 2014 phpBB Limited <https://www.phpbb.com>
  * @copyright (c) 2014 phpBBItalia.net <https://www.phpbbitalia.net>
+ * @copyright (c) 2018 phpBB-Store.it <http://www.phpbb-store.it>
  * @license GNU General Public License, version 2 (GPL-2.0)
  *
  */
