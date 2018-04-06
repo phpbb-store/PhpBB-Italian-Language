@@ -432,8 +432,6 @@ $lang = array_merge($lang, array(
 	'AUTH_METHOD'				=> 'Seleziona un metodo di autenticazione',
 
 	'AUTH_PROVIDER_OAUTH_ERROR_ELEMENT_MISSING'	=> 'Deve essere fornita la chiave segreta di ogni servizio OAuth abilitato. Ne è stata disposta solo una dal provider di servizi OAuth.',
-	'AUTH_PROVIDER_OAUTH_EXPLAIN'				=> 'Ogni provider OAuth richiede una chiave segreta univoca allo scopo di autenticarsi con il server esterno.<br />Questa deve essere fornita dal servizio OAuth quando registri il tuo sito web e ti deve essere fornita esattamente dal provider.<br />Qualsiasi servizio che non abbia la chiave segreta immessa qui non sarà fruibile dagli utenti del Forum.',
-
 	'AUTH_PROVIDER_OAUTH_EXPLAIN'				=> 'Ogni provider OAuth richiede una chiave segreta univoca allo scopo di autenticarsi con il server esterno. Questa deve essere fornita dal servizio OAuth quando registri il tuo sito web e ti deve essere fornita esattamente dal provider.<br />Qualsiasi servizio che non abbia la chiave segreta immessa qui non sarà fruibile dagli utenti del Forum. L’utente può comunque registrarsi ed effettuare il login utilizzando il plugin di autenticazione DB.',
 
 	'AUTH_PROVIDER_OAUTH_KEY'					=> 'Chiave',
@@ -569,6 +567,8 @@ $lang = array_merge($lang, array(
 	'CONTACT_EMAIL_NAME_EXPLAIN'	=> 'Questo è il nome del contatto che i destinatari di posta elettronica vedranno. Se non si vuole avere un nome del contatto, lasciare questo campo vuoto.',
 	'EMAIL_FUNCTION_NAME'			=> 'Nome funzione email',
 	'EMAIL_FUNCTION_NAME_EXPLAIN'	=> 'Funzione email usata per spedire mail attraverso PHP.',
+	'EMAIL_FORCE_SENDER'            => 'Forza dall’indirizzo email',
+	'EMAIL_FORCE_SENDER_EXPLAIN'	=> 'Questo imposterà il ritorno all’indirizzo e-mail invece di utilizzare l’utente locale e il nome host del server. Questa impostazione non si applica quando si utilizza SMTP.<br><em><strong>Attenzione:</strong> Richiede che l’utente venga aggiunto come utente fidato alla configurazione di sendmail nel webserver.</em>',
 	'EMAIL_PACKAGE_SIZE'			=> 'Dimensione pacchetto email',
 	'EMAIL_PACKAGE_SIZE_EXPLAIN'	=> 'Questo è il numero delle email spedite in un pacchetto.',
 	'EMAIL_SIG'						=> 'Firma nelle email',
