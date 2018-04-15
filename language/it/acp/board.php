@@ -364,7 +364,7 @@ $lang = array_merge($lang, array(
 	'COOKIE_SECURE_EXPLAIN'		=> 'Se il tuo server funziona via SSL, abilita questo modulo, altrimenti lascialo disabilitato. Se abilitato, in assenza di SSL risulterà un errore nel server durante i reindirizzamenti.',
 	'ONLINE_LENGTH'				=> 'Visualizza lasso tempo online',
 	'ONLINE_LENGTH_EXPLAIN'		=> 'Numero di minuti dopo i quali gli utenti inattivi non appariranno più nella lista “Chi c’è in linea”. Più alto è questo valore e più grande sarà il processo richiesto per generare la lista.',
-	'SESSION_LENGTH'			=> 'Lunghezza sessione',
+	'SESSION_LENGTH'			=> 'Durata sessione',
 	'SESSION_LENGTH_EXPLAIN'	=> 'La sessione scadrà dopo questo lasso di tempo, in secondi.',
 ));
 
