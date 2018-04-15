@@ -119,8 +119,7 @@ $lang = array_merge($lang, array(
 	'AVATAR_URL_INVALID'			=> 'L’indirizzo specificato non è valido.',
 	'AVATAR_URL_NOT_FOUND'			=> 'Il file specificato non può essere trovato.',
 	'AVATAR_WRONG_FILESIZE'			=> 'La dimensione file dell’avatar deve essere compresa tra 0 e %1$d %2$s.',
-	'AVATAR_WRONG_SIZE'				=> 'L’avatar inviato è largo %5$s pixel e alto %6$s pixel. Gli avatar devono avere una larghezza minima di %1$s pixel e un’altezza minima di %2$s pixel, mentre non possono superare %3$s pixel di larghezza e %4$s pixel di altezza.',
-
+	'AVATAR_WRONG_SIZE'			=> 'L’avatar inviato è largo %5$s e alto %6$s. Gli avatar devono avere una larghezza minima di %1$s e un’altezza minima di %2$s, mentre non possono superare %3$s di larghezza e %4$s di altezza.',
 	'BACK_TO_TOP'			=> 'Top',
 	'BACK_TO_PREV'			=> 'Torna alla pagina precedente',
 	'BAN_TRIGGERED_BY_EMAIL'=> 'Questo ban è riferito al tuo indirizzo email.',
