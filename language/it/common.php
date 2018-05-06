@@ -6,6 +6,7 @@
 * @copyright (c) phpBB Limited <https://www.phpbb.com>
 * @copyright (c) 2010 phpBB.it
 * @copyright (c) 2014 phpBBItalia.net <https://www.phpbbitalia.net>
+* @copyright (c) 2018 phpBB-Store.it <http://www.phpbb-store.it>
 * @license GNU General Public License, version 2 (GPL-2.0)
 *
 * For full copyright and license information, please see
@@ -43,7 +44,7 @@ if (empty($lang) || !is_array($lang))
 //
 
 $lang = array_merge($lang, array(
-	'TRANSLATION_INFO'	=> 'Traduzione Italiana <a href="https://www.phpbbitalia.net">phpBBItalia.net</a> & <a href="http://www.phpbb-store.it">PhpBB-store.it</a>',
+	'TRANSLATION_INFO'	=> 'Traduzione Italiana <a href="http://www.phpbb-store.it"><b>phpBB-Store.it</b></a> basata su <b>phpBBItalia.net</b> 2017',
 	'DIRECTION'			=> 'ltr',
 	'DATE_FORMAT'		=> '|d M Y|',	// 01 Jan 2007 (with Relative days enabled)
 	'DATETIME_FORMAT'	=> '|d M Y, H:i|',	// 01 Jan 2007, 13:37 (with Relative days enabled)
