@@ -115,7 +115,7 @@ $lang = array_merge($lang, array(
 		2	=> 'Tutti i messaggi fino al numero ID %2$d vengono ora indicizzati, di cui %1$d messaggi erano all’interno di questa fase.<br />',
 	),
 	'SEARCH_INDEX_CREATE_REDIRECT_RATE'		=> array(
-		2	=> 'La velocità di indicizzazione corrente è di approssimativamente %1$.1f messaggi al secondo.<br />Indicizzazione in corso...',
+		2	=> 'La velocità di indicizzazione corrente è approssimativamente di %1$.1f messaggi al secondo.<br />Indicizzazione in corso...',
 	),
 	'SEARCH_INDEX_DELETE_REDIRECT'			=> array(
 		2	=> 'Tutti i messaggi fino al numero ID %2$d vengono ora eliminati dall’Indice di ricerca.<br />Cancellazione in corso...',
